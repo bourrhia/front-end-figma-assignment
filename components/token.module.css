@@ -1,0 +1,137 @@
+.launchingInThe {
+  position: absolute;
+  width: calc(100% - 60px);
+  bottom: 77px;
+  left: 30px;
+  line-height: 130%;
+  display: inline-block;
+}
+.icon,
+.imageChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.icon {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.imageChild {
+  top: 100%;
+  right: -100%;
+  bottom: -100%;
+  left: 100%;
+  background: linear-gradient(174.64deg, #3c6fff, #9123ff 99.28%);
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  mix-blend-mode: color;
+}
+.image,
+.imageFrame {
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+.image {
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.imageFrame {
+  height: calc(100% - 425px);
+  width: calc(100% - 30px);
+  top: 179px;
+  right: 30px;
+  bottom: 246px;
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+}
+.empoweringNftHolders,
+.token1 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: inline-block;
+}
+.empoweringNftHolders {
+  top: 61px;
+  line-height: 130%;
+  background: linear-gradient(90deg, #3d8bff, #ab23ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.token1 {
+  margin: 0;
+  top: 0;
+  font-size: var(--font-size-19xl);
+  line-height: 46px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: var(--font-monument-extended);
+}
+.empoweringNftHoldersAndShaParent {
+  position: absolute;
+  width: calc(100% - 60px);
+  top: 30px;
+  right: 30px;
+  left: 30px;
+  height: 119px;
+  font-size: var(--font-size-3xl);
+}
+.comingSoon {
+  position: relative;
+  line-height: 110%;
+  display: inline-block;
+  min-width: 90px;
+}
+.comingSoonWrapper {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  border-radius: var(--br-81xl);
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-7xs);
+  white-space: nowrap;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--black);
+}
+.token {
+  position: absolute;
+  top: 156px;
+  left: 733px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-100);
+  width: 453px;
+  height: 659px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+  font-family: var(--font-satoshi);
+}
+@media screen and (max-width: 750px) {
+  .token1 {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .empoweringNftHolders {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .token1 {
+    font-size: var(--font-size-4xl);
+    line-height: 27px;
+  }
+}

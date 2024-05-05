@@ -1,0 +1,130 @@
+.atCreonWe,
+.theDynamicCommunity {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+}
+.atCreonWe {
+  height: 184px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+}
+.theDynamicCommunityDrivenBParent {
+  position: absolute;
+  top: calc(50% - 33px);
+  left: 1258px;
+  width: 391px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-9xl);
+  font-family: var(--font-satoshi);
+}
+.aiInnovation,
+.profitingThrough {
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+}
+.aiInnovation {
+  top: 215px;
+  left: 755px;
+  font-size: var(--font-size-19xl);
+  line-height: 46px;
+  background: linear-gradient(90deg, #3d8bff, #ab23ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: right;
+}
+.profitingThrough {
+  top: 120px;
+  left: calc(50% - 720px);
+  font-size: var(--font-size-49xl);
+  line-height: 75px;
+}
+.creonLogo5V01NormalBitratIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.video,
+.videoPlaceholder {
+  position: absolute;
+  border-radius: var(--br-7xs);
+}
+.videoPlaceholder {
+  top: 485px;
+  left: 947px;
+  background: linear-gradient(174.64deg, #3d8bff, #ab23ff);
+  width: 100%;
+  height: 100%;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  mix-blend-mode: soft-light;
+}
+.video {
+  top: 344px;
+  left: 240px;
+  width: 947px;
+  height: 485px;
+  overflow: hidden;
+  background-image: url(/video1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.gridBackground,
+.gridBackground1 {
+  position: absolute;
+  top: 344px;
+  left: 1227px;
+  background-color: var(--grey-line);
+  width: 1px;
+  height: 485px;
+}
+.gridBackground1 {
+  left: 1679px;
+}
+.profiting {
+  position: absolute;
+  top: 1940px;
+  left: 0;
+  width: 100%;
+  height: 970px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--white);
+  font-family: var(--font-monument-extended);
+}
+@media screen and (max-width: 750px) {
+  .aiInnovation {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .profitingThrough {
+    font-size: var(--font-size-35xl);
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theDynamicCommunity {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .aiInnovation {
+    font-size: var(--font-size-4xl);
+    line-height: 27px;
+  }
+  .profitingThrough {
+    font-size: var(--font-size-22xl);
+    line-height: 45px;
+  }
+}

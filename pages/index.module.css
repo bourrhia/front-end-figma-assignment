@@ -1,0 +1,198 @@
+.networkTransformationConnect {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.videoBackgroundChild {
+  background: linear-gradient(174.64deg, #3d8bff, #ab23ff);
+  mix-blend-mode: soft-light;
+}
+.blackShapeChild,
+.videoBackgroundChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 100%;
+  right: -100%;
+  bottom: -100%;
+  left: 100%;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.blackShapeChild,
+.blackShapeItem {
+  background: linear-gradient(180deg, #000, transparent);
+}
+.blackShape,
+.blackShapeItem {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.comingSoon,
+.marketPanel,
+.videoBackground {
+  position: absolute;
+  left: 0;
+  height: 970px;
+  overflow: hidden;
+}
+.videoBackground {
+  top: 5070px;
+  width: 1920px;
+  background-image: url(/video-background@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.comingSoon,
+.marketPanel {
+  top: 3880px;
+  width: 100%;
+}
+.marketPanel {
+  top: 4850px;
+  height: 1106px;
+  max-width: 100%;
+}
+.mainVideoGradient1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.contentBackground {
+  position: absolute;
+  top: 970px;
+  left: 1920px;
+  background: linear-gradient(174.64deg, #000, #3d8bff 47.14%, #ab23ff 99.28%);
+  width: 100%;
+  height: 100%;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  mix-blend-mode: soft-light;
+}
+.aiBlockchainProjects,
+.platformForTokenizing,
+.theWorldsFirst {
+  margin: 0;
+}
+.theWorldsFirstContainer {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  font-size: inherit;
+  line-height: 110%;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 1440px;
+}
+.holdTheCreon {
+  position: relative;
+  line-height: 29px;
+  background: linear-gradient(90deg, #3d8bff, #ab23ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.descriptionContainer {
+  position: absolute;
+  top: 265px;
+  left: 0;
+  border-top: 1px solid var(--color-dodgerblue);
+  border-bottom: 1px solid var(--color-dodgerblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0 var(--padding-3xs);
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-satoshi);
+}
+.stScreen,
+.text {
+  position: absolute;
+}
+.text {
+  top: 555px;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 313px;
+}
+.stScreen {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 970px;
+  overflow: hidden;
+  background-image: url(/video-background@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-49xl);
+  color: var(--white);
+  font-family: var(--font-monument-extended);
+}
+.mainPage1920pxChild {
+  position: absolute;
+  top: 0;
+  left: 1915px;
+  background-color: var(--black);
+  width: 5px;
+  height: 6162px;
+  display: none;
+}
+.bannerBackground {
+  position: absolute;
+  top: 48px;
+  left: 1915px;
+  border-radius: 1px;
+  background-color: var(--purple);
+  width: 5px;
+  height: 65px;
+}
+.mainPage1920px {
+  width: 100%;
+  height: 6040px;
+  position: relative;
+  background-color: var(--black);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .theWorldsFirstContainer {
+    font-size: var(--font-size-35xl);
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theWorldsFirstContainer {
+    font-size: var(--font-size-22xl);
+    line-height: 45px;
+  }
+  .holdTheCreon {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+}

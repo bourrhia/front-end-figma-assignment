@@ -1,0 +1,93 @@
+.aiCloudConceptWithRobotHeIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+}
+.image,
+.marketImageOverlay {
+  position: absolute;
+  height: 100%;
+}
+.marketImageOverlay {
+  width: 100%;
+  top: 100%;
+  right: -100%;
+  bottom: -100%;
+  left: 100%;
+  background: linear-gradient(174.64deg, #3c6fff, #9123ff 99.28%);
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  mix-blend-mode: overlay;
+}
+.image {
+  top: 0;
+  bottom: 0;
+  left: 987px;
+  width: 453px;
+  overflow: hidden;
+}
+.aiProspectsMarket,
+.theAiMarket {
+  align-self: stretch;
+  position: relative;
+}
+.aiProspectsMarket {
+  margin: 0;
+  font-size: inherit;
+  line-height: 120%;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+}
+.theAiMarket {
+  font-size: var(--font-size-lg);
+  line-height: 130%;
+  font-family: var(--font-satoshi);
+}
+.aiProspectsMarketSizeAndParent {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.div {
+  position: absolute;
+  top: 80px;
+  left: 240px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-100);
+  width: 1440px;
+  height: 302px;
+  overflow: hidden;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-19xl);
+  color: var(--white);
+  font-family: var(--font-monument-extended);
+}
+@media screen and (max-width: 750px) {
+  .aiProspectsMarket {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aiProspectsMarket {
+    font-size: var(--font-size-4xl);
+    line-height: 27px;
+  }
+}

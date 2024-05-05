@@ -1,0 +1,237 @@
+.upres2160p1,
+.videoOverlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.upres2160p1 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.videoOverlay {
+  top: 100%;
+  right: -100%;
+  bottom: -100%;
+  left: 100%;
+  background: linear-gradient(174.64deg, rgba(61, 139, 255, 0.44), #ab23ff);
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  mix-blend-mode: soft-light;
+}
+.video {
+  background-image: url(/video@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.darkShapeIcon,
+.video {
+  position: absolute;
+  top: calc(50% - 404px);
+  left: 980px;
+  width: 808px;
+  height: 808px;
+  overflow: hidden;
+}
+.connectWallet1,
+.connectWallet2 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 64.5px);
+  line-height: 20px;
+}
+.connectWallet2 {
+  top: calc(50% + 29px);
+  line-height: 110%;
+}
+.bigButtonColor,
+.theCreonNft {
+  position: absolute;
+  left: 0;
+  background: linear-gradient(90deg, #3d8bff, #ab23ff);
+}
+.bigButtonColor {
+  top: 644px;
+  border-radius: var(--br-7xs);
+  width: 453px;
+  height: 54px;
+  overflow: hidden;
+  text-align: center;
+}
+.theCreonNft {
+  width: 100%;
+  top: 211px;
+  font-size: var(--font-size-3xl);
+  line-height: 130%;
+  display: flex;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+}
+.revenueShareDistribution {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 130%;
+  font-family: var(--font-satoshi);
+  color: var(--white);
+  text-align: left;
+}
+.benefitItems {
+  cursor: pointer;
+  border: 1px solid var(--grey-line);
+  padding: var(--padding-3xs) var(--padding-mid) var(--padding-sm);
+  background-color: transparent;
+  position: absolute;
+  top: 521px;
+  left: 0;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.benefitItems1:hover,
+.benefitItems2:hover,
+.benefitItems3:hover,
+.benefitItems:hover {
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.freeAndEarly {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 130%;
+  font-family: var(--font-satoshi);
+  color: var(--white);
+  text-align: left;
+}
+.benefitItems1 {
+  cursor: pointer;
+  border: 1px solid var(--grey-line);
+  padding: var(--padding-3xs) var(--padding-mid) var(--padding-sm);
+  background-color: transparent;
+  position: absolute;
+  top: 399px;
+  left: 0;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.higherAllocationLimits {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 130%;
+  font-family: var(--font-satoshi);
+  color: var(--white);
+  text-align: left;
+}
+.benefitItems2 {
+  cursor: pointer;
+  border: 1px solid var(--grey-line);
+  padding: var(--padding-3xs) var(--padding-mid) var(--padding-sm);
+  background-color: transparent;
+  position: absolute;
+  top: 460px;
+  left: 0;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.preLaunchInvestmentOpportun {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 130%;
+  font-family: var(--font-satoshi);
+  color: var(--white);
+  text-align: left;
+}
+.benefitItems3 {
+  cursor: pointer;
+  border: 1px solid var(--grey-line);
+  padding: var(--padding-3xs) var(--padding-mid) var(--padding-sm);
+  background-color: transparent;
+  position: absolute;
+  top: 338px;
+  left: 0;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.creonPassNft {
+  margin: 0;
+  top: 0;
+  left: calc(50% - 350px);
+  font-size: var(--font-size-49xl);
+  line-height: 110%;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: var(--font-monument-extended);
+  display: inline-block;
+}
+.creonPass,
+.creonPassNft,
+.left,
+.nftImage {
+  position: absolute;
+  width: 700px;
+}
+.nftImage {
+  top: 180px;
+  left: 0;
+  background-color: var(--grey-line);
+  height: 1px;
+}
+.creonPass,
+.left {
+  top: 136px;
+  left: 240px;
+  height: 698px;
+}
+.creonPass {
+  top: 970px;
+  left: 0;
+  width: 100%;
+  height: 970px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+  font-family: var(--font-satoshi);
+}
+@media screen and (max-width: 750px) {
+  .creonPassNft {
+    font-size: var(--font-size-35xl);
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theCreonNft {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .creonPassNft {
+    font-size: var(--font-size-22xl);
+    line-height: 45px;
+  }
+}

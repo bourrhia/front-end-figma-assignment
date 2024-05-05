@@ -1,0 +1,66 @@
+.discordIcon,
+.telegramIcon,
+.twitterIcon {
+  height: 34px;
+  width: 34px;
+  position: relative;
+  min-height: 34px;
+}
+.discordIcon,
+.twitterIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialMedia {
+  position: absolute;
+  top: calc(50% - 27px);
+  left: 571px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.creon2023All {
+  position: absolute;
+  bottom: 41px;
+  left: 240px;
+  line-height: 21px;
+}
+.poweredBy {
+  position: relative;
+  line-height: 21px;
+  display: inline-block;
+  min-width: 83px;
+}
+.niftablesLogoChild {
+  height: 18px;
+  width: 101px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.footer,
+.niftablesLogo {
+  position: absolute;
+  overflow: hidden;
+}
+.niftablesLogo {
+  right: 240px;
+  bottom: 41px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.footer {
+  top: 5956px;
+  left: 0;
+  width: 100%;
+  height: 84px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-satoshi);
+}

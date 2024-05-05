@@ -1,0 +1,84 @@
+.future,
+.launchingThe {
+  margin: 0;
+}
+.profitabilityAndGrowthContainer1 {
+  width: 100%;
+}
+.profitabilityAndGrowthContainer {
+  position: absolute;
+  width: calc(100% - 186px);
+  top: 28px;
+  left: 130px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+}
+.frameChild,
+.icon {
+  position: absolute;
+  top: 37px;
+  left: 516px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.icon {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 100px;
+  object-fit: cover;
+}
+.profitabilityAndGrowthParent {
+  align-self: stretch;
+  height: 114px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.atCreonWe {
+  align-self: stretch;
+  height: 115px;
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+}
+.advantage,
+.atCreonWeDeliverAUniqueWrapper,
+.frameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.atCreonWeDeliverAUniqueWrapper {
+  width: 422px;
+  display: none;
+  align-items: flex-start;
+  font-size: var(--font-size-lg);
+}
+.advantage,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+}
+.advantage {
+  border-bottom: 1px solid var(--grey-line);
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-9xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--white);
+  font-family: var(--font-satoshi);
+}
+@media screen and (max-width: 450px) {
+  .profitabilityAndGrowthContainer {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+}
